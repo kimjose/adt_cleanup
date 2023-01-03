@@ -1,0 +1,24 @@
+{
+    "name": "joseph/adt_clean_up",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Joseph\\AdtCleanUp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kimjose",
+            "email": "kimjose693@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "5.5.x-dev",
+        "bramus/router": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    }
+}
